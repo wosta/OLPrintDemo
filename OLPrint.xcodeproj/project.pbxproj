@@ -15,6 +15,10 @@
 		85BFE0A11E88C1D7005A63C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85BFE09F1E88C1D7005A63C6 /* LaunchScreen.storyboard */; };
 		85BFE0AA1E88C225005A63C6 /* OLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0A91E88C225005A63C6 /* OLManager.m */; };
 		85BFE0AD1E88DD90005A63C6 /* OLEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0AC1E88DD90005A63C6 /* OLEmployee.m */; };
+		85FE90241E8A3571000618DE /* OLMVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE90231E8A3571000618DE /* OLMVCModel.m */; };
+		85FE90271E8A358A000618DE /* OLMVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE90261E8A358A000618DE /* OLMVCView.m */; };
+		85FE902B1E8A35A7000618DE /* OLMVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FE90291E8A35A7000618DE /* OLMVCViewController.m */; };
+		85FE902C1E8A35A7000618DE /* OLMVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FE902A1E8A35A7000618DE /* OLMVCViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,13 @@
 		85BFE0AC1E88DD90005A63C6 /* OLEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLEmployee.m; sourceTree = "<group>"; };
 		85BFE0AE1E890EF0005A63C6 /* readme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readme.h; sourceTree = "<group>"; };
 		85BFE0AF1E891EBC005A63C6 /* OLPrintHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLPrintHead.h; sourceTree = "<group>"; };
+		85FE90221E8A3571000618DE /* OLMVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVCModel.h; sourceTree = "<group>"; };
+		85FE90231E8A3571000618DE /* OLMVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVCModel.m; sourceTree = "<group>"; };
+		85FE90251E8A358A000618DE /* OLMVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVCView.h; sourceTree = "<group>"; };
+		85FE90261E8A358A000618DE /* OLMVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVCView.m; sourceTree = "<group>"; };
+		85FE90281E8A35A7000618DE /* OLMVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVCViewController.h; sourceTree = "<group>"; };
+		85FE90291E8A35A7000618DE /* OLMVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVCViewController.m; sourceTree = "<group>"; };
+		85FE902A1E8A35A7000618DE /* OLMVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OLMVCViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +78,7 @@
 		85BFE0901E88C1D7005A63C6 /* OLPrint */ = {
 			isa = PBXGroup;
 			children = (
+				85FE90211E8A3554000618DE /* MVC */,
 				85BFE0941E88C1D7005A63C6 /* AppDelegate.h */,
 				85BFE0951E88C1D7005A63C6 /* AppDelegate.m */,
 				85BFE0971E88C1D7005A63C6 /* ViewController.h */,
@@ -91,6 +103,20 @@
 				85BFE0921E88C1D7005A63C6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85FE90211E8A3554000618DE /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				85FE90221E8A3571000618DE /* OLMVCModel.h */,
+				85FE90231E8A3571000618DE /* OLMVCModel.m */,
+				85FE90251E8A358A000618DE /* OLMVCView.h */,
+				85FE90261E8A358A000618DE /* OLMVCView.m */,
+				85FE90281E8A35A7000618DE /* OLMVCViewController.h */,
+				85FE90291E8A35A7000618DE /* OLMVCViewController.m */,
+				85FE902A1E8A35A7000618DE /* OLMVCViewController.xib */,
+			);
+			name = MVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FE902C1E8A35A7000618DE /* OLMVCViewController.xib in Resources */,
 				85BFE0A11E88C1D7005A63C6 /* LaunchScreen.storyboard in Resources */,
 				85BFE09E1E88C1D7005A63C6 /* Assets.xcassets in Resources */,
 				85BFE09C1E88C1D7005A63C6 /* Main.storyboard in Resources */,
@@ -165,11 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FE902B1E8A35A7000618DE /* OLMVCViewController.m in Sources */,
 				85BFE0991E88C1D7005A63C6 /* ViewController.m in Sources */,
 				85BFE0961E88C1D7005A63C6 /* AppDelegate.m in Sources */,
 				85BFE0AA1E88C225005A63C6 /* OLManager.m in Sources */,
+				85FE90271E8A358A000618DE /* OLMVCView.m in Sources */,
 				85BFE0931E88C1D7005A63C6 /* main.m in Sources */,
 				85BFE0AD1E88DD90005A63C6 /* OLEmployee.m in Sources */,
+				85FE90241E8A3571000618DE /* OLMVCModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
