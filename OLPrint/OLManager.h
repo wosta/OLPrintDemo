@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OLEmployee.h"
 
-@interface OLManager : NSObject
+@interface OLManager : NSObject<EmployeeDelegate>
 
 /** <#type#> */
 @property (nonatomic, copy) NSString *name;

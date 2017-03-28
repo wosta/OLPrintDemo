@@ -33,6 +33,7 @@
 		85BFE0AB1E88DD90005A63C6 /* OLEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLEmployee.h; sourceTree = "<group>"; };
 		85BFE0AC1E88DD90005A63C6 /* OLEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLEmployee.m; sourceTree = "<group>"; };
 		85BFE0AE1E890EF0005A63C6 /* readme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readme.h; sourceTree = "<group>"; };
+		85BFE0AF1E891EBC005A63C6 /* OLPrintHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLPrintHead.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 				85BFE0A91E88C225005A63C6 /* OLManager.m */,
 				85BFE0AB1E88DD90005A63C6 /* OLEmployee.h */,
 				85BFE0AC1E88DD90005A63C6 /* OLEmployee.m */,
+				85BFE0AF1E891EBC005A63C6 /* OLPrintHead.h */,
 			);
 			path = OLPrint;
 			sourceTree = "<group>";

@@ -8,7 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol EmployeeDelegate <NSObject>
+
+- (void)startPrintJobProtocol;
+
+@end
+
 @interface OLEmployee : NSObject
+
+@property(nonatomic, weak) id<EmployeeDelegate> delegate;
+
 + (instancetype)shareEmployee;
 - (void)printJob;
 @end

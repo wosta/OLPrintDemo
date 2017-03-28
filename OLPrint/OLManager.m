@@ -8,6 +8,7 @@
 
 #import "OLManager.h"
 #import "OLEmployee.h"
+#import "OLPrintHead.h"
 
 @implementation OLManager
 + (instancetype)shareMananger {
@@ -19,12 +20,29 @@
     return manager;
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(celebratePrintDone) name:Notification_print_end object:nil];
+    }
+    return self;
+}
+
 - (void)celebratePrintDone {
     NSLog(@"celebrate print done");
-    NSLog(@"%@",[OLManager shareMananger].name);
+//    NSLog(@"%@",[OLManager shareMananger].name);
+    
 }
 
 - (void)startPrintTask {
-    [[OLEmployee shareEmployee] printJob];
+//    [OLEmployee shareEmployee].delegate = self;
+//    [[OLEmployee shareEmployee] printJob];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:Notification_print_start object:nil];
 }
+
+- (void)startPrintJobProtocol {
+    NSLog(@"celebrate print done");
+}
+
 @end

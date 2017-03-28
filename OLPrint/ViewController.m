@@ -22,6 +22,12 @@
     
     
     [[OLManager shareMananger] startPrintTask];
+    
+    OLManager *manager = [[OLManager alloc] init];
+    [manager startPrintTask];
+    
+    OLEmployee *employee = [[OLEmployee alloc] init];
+//    [employee printJob];
 }
 
 
