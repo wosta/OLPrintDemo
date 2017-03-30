@@ -10,6 +10,7 @@
 #import "OLManager.h"
 #import "OLEmployee.h"
 #import "OLMVCViewController.h"
+#import "OLMVPViewController.h"
 
 @interface ViewController ()
 
@@ -39,7 +40,14 @@
 }
 
 - (void)loadMVC {
-    OLMVCViewController *vc = [[OLMVCViewController alloc] init];
+    // MVC
+//    OLMVCViewController *vc = [[OLMVCViewController alloc] init];
+//    [self presentViewController:vc animated:YES completion:^{
+//        
+//    }];
+    
+    // MVP
+    OLMVPViewController *vc = [[OLMVPViewController alloc] init];
     [self presentViewController:vc animated:YES completion:^{
         
     }];
