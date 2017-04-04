@@ -10,5 +10,5 @@
 
 @interface OLMVCModel : NSObject
 /** <#type#> */
-@property (nonatomic, copy) NSString *content;
+@property (nonatomic, strong) NSString *content;
 @end

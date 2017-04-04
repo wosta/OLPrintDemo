@@ -8,7 +8,7 @@
 
 #import "OLPresenter.h"
 
-@interface OLPresenter()
+@interface OLPresenter()<OLMVPViewDelegate>
 {
     
 }
@@ -20,6 +20,9 @@
 }
 
 - (void)printButtonClick {
-    NSLog(@"print button clicked");
+    NSInteger lineNumber = arc4random()%10+1;
+    self.mvpModel.content = [NSString stringWithFormat:@"line %ld", lineNumber];
+    [self.mvpView printOnView:self.mvpModel.content];
 }
+
 @end

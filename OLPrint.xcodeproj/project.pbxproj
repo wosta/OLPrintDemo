@@ -11,6 +11,13 @@
 		851378751E8B96F100B1F694 /* OLMVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851378741E8B96F100B1F694 /* OLMVPModel.m */; };
 		851378781E8B9DDF00B1F694 /* OLPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 851378771E8B9DDF00B1F694 /* OLPresenter.m */; };
 		8513787B1E8BADDD00B1F694 /* OLMVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8513787A1E8BADDD00B1F694 /* OLMVPView.m */; };
+		8532513F1E925B2C00D43BE6 /* OLMVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532513E1E925B2C00D43BE6 /* OLMVVMViewModel.m */; };
+		853251421E925B3900D43BE6 /* OLMVVMPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251411E925B3900D43BE6 /* OLMVVMPaper.m */; };
+		853251451E925B4500D43BE6 /* OLMVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251441E925B4500D43BE6 /* OLMVVMView.m */; };
+		853251481E925B5C00D43BE6 /* OLMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251471E925B5C00D43BE6 /* OLMVVMViewController.m */; };
+		853251501E925C3000D43BE6 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532514B1E925C3000D43BE6 /* FBKVOController.m */; };
+		853251511E925C3000D43BE6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8532514C1E925C3000D43BE6 /* Info.plist */; };
+		853251521E925C3000D43BE6 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */; };
 		85BFE0931E88C1D7005A63C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0921E88C1D7005A63C6 /* main.m */; };
 		85BFE0961E88C1D7005A63C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0951E88C1D7005A63C6 /* AppDelegate.m */; };
 		85BFE0991E88C1D7005A63C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0981E88C1D7005A63C6 /* ViewController.m */; };
@@ -34,6 +41,20 @@
 		851378771E8B9DDF00B1F694 /* OLPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLPresenter.m; sourceTree = "<group>"; };
 		851378791E8BADDD00B1F694 /* OLMVPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVPView.h; sourceTree = "<group>"; };
 		8513787A1E8BADDD00B1F694 /* OLMVPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVPView.m; sourceTree = "<group>"; };
+		8532513D1E925B2C00D43BE6 /* OLMVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVVMViewModel.h; sourceTree = "<group>"; };
+		8532513E1E925B2C00D43BE6 /* OLMVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVVMViewModel.m; sourceTree = "<group>"; };
+		853251401E925B3900D43BE6 /* OLMVVMPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVVMPaper.h; sourceTree = "<group>"; };
+		853251411E925B3900D43BE6 /* OLMVVMPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVVMPaper.m; sourceTree = "<group>"; };
+		853251431E925B4500D43BE6 /* OLMVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVVMView.h; sourceTree = "<group>"; };
+		853251441E925B4500D43BE6 /* OLMVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVVMView.m; sourceTree = "<group>"; };
+		853251461E925B5C00D43BE6 /* OLMVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVVMViewController.h; sourceTree = "<group>"; };
+		853251471E925B5C00D43BE6 /* OLMVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVVMViewController.m; sourceTree = "<group>"; };
+		8532514A1E925C3000D43BE6 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		8532514B1E925C3000D43BE6 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		8532514C1E925C3000D43BE6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8532514D1E925C3000D43BE6 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
+		8532514E1E925C3000D43BE6 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
 		85BFE08E1E88C1D7005A63C6 /* OLPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BFE0921E88C1D7005A63C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85BFE0941E88C1D7005A63C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +106,34 @@
 			name = MVP;
 			sourceTree = "<group>";
 		};
+		8532513C1E924E0600D43BE6 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				8532513D1E925B2C00D43BE6 /* OLMVVMViewModel.h */,
+				8532513E1E925B2C00D43BE6 /* OLMVVMViewModel.m */,
+				853251401E925B3900D43BE6 /* OLMVVMPaper.h */,
+				853251411E925B3900D43BE6 /* OLMVVMPaper.m */,
+				853251431E925B4500D43BE6 /* OLMVVMView.h */,
+				853251441E925B4500D43BE6 /* OLMVVMView.m */,
+				853251461E925B5C00D43BE6 /* OLMVVMViewController.h */,
+				853251471E925B5C00D43BE6 /* OLMVVMViewController.m */,
+			);
+			name = MVVM;
+			sourceTree = "<group>";
+		};
+		853251491E925C3000D43BE6 /* FBKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				8532514A1E925C3000D43BE6 /* FBKVOController.h */,
+				8532514B1E925C3000D43BE6 /* FBKVOController.m */,
+				8532514C1E925C3000D43BE6 /* Info.plist */,
+				8532514D1E925C3000D43BE6 /* KVOController.h */,
+				8532514E1E925C3000D43BE6 /* NSObject+FBKVOController.h */,
+				8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */,
+			);
+			path = FBKVOController;
+			sourceTree = "<group>";
+		};
 		85BFE0851E88C1D7005A63C6 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +154,8 @@
 		85BFE0901E88C1D7005A63C6 /* OLPrint */ = {
 			isa = PBXGroup;
 			children = (
+				853251491E925C3000D43BE6 /* FBKVOController */,
+				8532513C1E924E0600D43BE6 /* MVVM */,
 				8513786F1E8B96CF00B1F694 /* MVP */,
 				85FE90211E8A3554000618DE /* MVC */,
 				85BFE0941E88C1D7005A63C6 /* AppDelegate.h */,
@@ -179,6 +230,7 @@
 				TargetAttributes = {
 					85BFE08D1E88C1D7005A63C6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S27898SKEJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -209,6 +261,7 @@
 				85FE902C1E8A35A7000618DE /* OLMVCViewController.xib in Resources */,
 				85BFE0A11E88C1D7005A63C6 /* LaunchScreen.storyboard in Resources */,
 				85BFE09E1E88C1D7005A63C6 /* Assets.xcassets in Resources */,
+				853251511E925C3000D43BE6 /* Info.plist in Resources */,
 				85BFE09C1E88C1D7005A63C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,16 +273,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8532513F1E925B2C00D43BE6 /* OLMVVMViewModel.m in Sources */,
+				853251481E925B5C00D43BE6 /* OLMVVMViewController.m in Sources */,
 				85FE902B1E8A35A7000618DE /* OLMVCViewController.m in Sources */,
 				851378781E8B9DDF00B1F694 /* OLPresenter.m in Sources */,
 				85BFE0991E88C1D7005A63C6 /* ViewController.m in Sources */,
 				85BFE0961E88C1D7005A63C6 /* AppDelegate.m in Sources */,
 				85BFE0AA1E88C225005A63C6 /* OLManager.m in Sources */,
 				85FE90271E8A358A000618DE /* OLMVCView.m in Sources */,
+				853251451E925B4500D43BE6 /* OLMVVMView.m in Sources */,
 				851378721E8B96E000B1F694 /* OLMVPViewController.m in Sources */,
 				8513787B1E8BADDD00B1F694 /* OLMVPView.m in Sources */,
 				851378751E8B96F100B1F694 /* OLMVPModel.m in Sources */,
+				853251521E925C3000D43BE6 /* NSObject+FBKVOController.m in Sources */,
+				853251501E925C3000D43BE6 /* FBKVOController.m in Sources */,
 				85BFE0931E88C1D7005A63C6 /* main.m in Sources */,
+				853251421E925B3900D43BE6 /* OLMVVMPaper.m in Sources */,
 				85BFE0AD1E88DD90005A63C6 /* OLEmployee.m in Sources */,
 				85FE90241E8A3571000618DE /* OLMVCModel.m in Sources */,
 			);
@@ -349,7 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S27898SKEJ;
 				INFOPLIST_FILE = OLPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olive.OLPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S27898SKEJ;
 				INFOPLIST_FILE = OLPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olive.OLPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";

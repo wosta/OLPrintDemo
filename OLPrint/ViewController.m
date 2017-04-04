@@ -11,6 +11,7 @@
 #import "OLEmployee.h"
 #import "OLMVCViewController.h"
 #import "OLMVPViewController.h"
+#import "OLMVVMViewController.h"
 
 @interface ViewController ()
 
@@ -51,6 +52,10 @@
     [self presentViewController:vc animated:YES completion:^{
         
     }];
+    
+    // MVVM
+//    OLMVVMViewController *vc = [[OLMVVMViewController alloc] init];
+//    [self presentViewController:vc animated:YES completion:nil];
 }
 
 

@@ -11,7 +11,7 @@
 #import "OLPresenter.h"
 #import "OLMVPView.h"
 
-@interface OLMVPViewController ()<OLMVPViewDelegate>
+@interface OLMVPViewController ()
 @property (nonatomic, strong)OLPresenter *presenter;
 @property (nonatomic, strong)OLMVPView   *mvpView;
 @property (nonatomic, strong)OLMVPModel  *mvpModel;
@@ -36,7 +36,7 @@
     self.presenter.mvpModel = self.mvpModel;
     self.presenter.mvpView = self.mvpView;
     
-    self.mvpView.delegate = self.presenter;
+    self.mvpView.delegate = _presenter;
     [self.presenter printJobStart];
 }
 
@@ -44,7 +44,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 /*
 #pragma mark - Navigation
 
