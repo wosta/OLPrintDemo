@@ -16,7 +16,6 @@
 		853251451E925B4500D43BE6 /* OLMVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251441E925B4500D43BE6 /* OLMVVMView.m */; };
 		853251481E925B5C00D43BE6 /* OLMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251471E925B5C00D43BE6 /* OLMVVMViewController.m */; };
 		853251501E925C3000D43BE6 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532514B1E925C3000D43BE6 /* FBKVOController.m */; };
-		853251511E925C3000D43BE6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8532514C1E925C3000D43BE6 /* Info.plist */; };
 		853251521E925C3000D43BE6 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */; };
 		85BFE0931E88C1D7005A63C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0921E88C1D7005A63C6 /* main.m */; };
 		85BFE0961E88C1D7005A63C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0951E88C1D7005A63C6 /* AppDelegate.m */; };
@@ -51,7 +50,6 @@
 		853251471E925B5C00D43BE6 /* OLMVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVVMViewController.m; sourceTree = "<group>"; };
 		8532514A1E925C3000D43BE6 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
 		8532514B1E925C3000D43BE6 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
-		8532514C1E925C3000D43BE6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8532514D1E925C3000D43BE6 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
 		8532514E1E925C3000D43BE6 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 			children = (
 				8532514A1E925C3000D43BE6 /* FBKVOController.h */,
 				8532514B1E925C3000D43BE6 /* FBKVOController.m */,
-				8532514C1E925C3000D43BE6 /* Info.plist */,
 				8532514D1E925C3000D43BE6 /* KVOController.h */,
 				8532514E1E925C3000D43BE6 /* NSObject+FBKVOController.h */,
 				8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */,
@@ -261,7 +258,6 @@
 				85FE902C1E8A35A7000618DE /* OLMVCViewController.xib in Resources */,
 				85BFE0A11E88C1D7005A63C6 /* LaunchScreen.storyboard in Resources */,
 				85BFE09E1E88C1D7005A63C6 /* Assets.xcassets in Resources */,
-				853251511E925C3000D43BE6 /* Info.plist in Resources */,
 				85BFE09C1E88C1D7005A63C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

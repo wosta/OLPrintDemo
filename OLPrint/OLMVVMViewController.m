@@ -27,9 +27,10 @@
     self.mvvmViewModel = [[OLMVVMViewModel alloc] init];
     self.mvvmPaper = [[OLMVVMPaper alloc] init];
     
-    self.mvvmPaper.content = @"line 0";
     self.mvvmView.frame = self.view.bounds;
     [self.view addSubview:self.mvvmView];
+    self.mvvmPaper.content = @"line 0";
+    self.mvvmViewModel.contentStr = @"test";
     [self.mvvmView setWithViewModel:self.mvvmViewModel];
     [self.mvvmViewModel setWithPaper:self.mvvmPaper];
 }
