@@ -42,17 +42,17 @@
 
 - (void)loadMVC {
     // MVC
-//    OLMVCViewController *vc = [[OLMVCViewController alloc] init];
-//    [self presentViewController:vc animated:YES completion:^{
-//        
-//    }];
-    
-    // MVP
-    OLMVPViewController *vc = [[OLMVPViewController alloc] init];
+    OLMVCViewController *vc = [[OLMVCViewController alloc] init];
     [self presentViewController:vc animated:YES completion:^{
         
     }];
-    
+
+    // MVP
+//    OLMVPViewController *vc = [[OLMVPViewController alloc] init];
+//    [self presentViewController:vc animated:YES completion:^{
+//        
+//    }];
+
     // MVVM
 //    OLMVVMViewController *vc = [[OLMVVMViewController alloc] init];
 //    [self presentViewController:vc animated:YES completion:^{

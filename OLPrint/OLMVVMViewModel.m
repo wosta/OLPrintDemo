@@ -35,6 +35,7 @@
 - (void)onPrintClick {
     NSInteger line = arc4random()%10+1;
     self.paper.content = [NSString stringWithFormat:@"line %ld", line];
+    //  这里的contentStr值被修改之后就会同步到view中
     self.contentStr = self.paper.content;
 }
 @end

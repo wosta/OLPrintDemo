@@ -44,11 +44,10 @@
 
 - (void)printClick{
     [self.mvvmViewModel onPrintClick];
+    if(self.delegate && [self.delegate respondsToSelector:@selector(mvvmViewModelIsChange)]) {
+        [self.delegate mvvmViewModelIsChange];
+    }
 }
-
-//- (void)printOnView:(NSString *)content {
-//    self.lbContent.text = content;
-//}
 
 - (void)setWithViewModel:(OLMVVMViewModel *)vm {
     self.mvvmViewModel = vm;

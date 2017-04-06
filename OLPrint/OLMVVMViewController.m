@@ -11,7 +11,7 @@
 #import "OLMVVMView.h"
 #import "OLMVVMPaper.h"
 
-@interface OLMVVMViewController ()
+@interface OLMVVMViewController ()<OLMVVMViewDelegate>
 @property (nonatomic, strong)OLMVVMViewModel *mvvmViewModel;
 @property (nonatomic, strong)OLMVVMView  *mvvmView;
 @property (nonatomic, strong)OLMVVMPaper *mvvmPaper;
@@ -33,6 +33,12 @@
     self.mvvmViewModel.contentStr = @"test";
     [self.mvvmView setWithViewModel:self.mvvmViewModel];
     [self.mvvmViewModel setWithPaper:self.mvvmPaper];
+
+    self.mvvmView.delegate = self;
+}
+
+- (void)mvvmViewModelIsChange {
+    NSLog(@"self.mvvmViewModel.contentStr=%@", self.mvvmViewModel.contentStr);
 }
 
 - (void)didReceiveMemoryWarning {

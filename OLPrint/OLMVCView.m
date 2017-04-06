@@ -29,6 +29,7 @@
 
 - (void)printClick{
     if (self.delegate && [self.delegate respondsToSelector:@selector(printButtonClick)]) {
+        self.changValue = @"changed";
         [self.delegate printButtonClick];
     }
 }

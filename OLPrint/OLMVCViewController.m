@@ -26,13 +26,16 @@
     
     self.mvcView = [[OLMVCView alloc] init];
     self.mvcView.delegate = self;
+    self.mvcView.changValue = @"init value";
     self.mvcView.frame = self.view.bounds;
     [self.mvcView printOnView: self.model];
     [self.view addSubview:self.mvcView];
+    NSLog(@"before the button clicked the self.mvcView.changeValue is %@", self.mvcView.changValue);
 }
 
 - (void)printButtonClick {
     NSLog(@"print button clicked");
+    NSLog(@"self.mvcView.changeValue is %@", self.mvcView.changValue);
 }
 
 - (void)didReceiveMemoryWarning {

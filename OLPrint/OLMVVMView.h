@@ -9,9 +9,18 @@
 #import <UIKit/UIKit.h>
 @class OLMVVMViewModel;
 
+@protocol OLMVVMViewDelegate <NSObject>
+
+- (void)mvvmViewModelIsChange;
+
+@end
+
 @interface OLMVVMView : UIView
 @property (nonatomic, strong) UILabel *lbContent;
 @property (nonatomic, strong) UIButton *button;
 @property (nonatomic, strong) OLMVVMViewModel *mvvmViewModel;
+@property (nonatomic, weak) id<OLMVVMViewDelegate> delegate;
+
 - (void)setWithViewModel:(OLMVVMViewModel *)vm;
+
 @end

@@ -16,6 +16,7 @@
 @end
 
 @interface OLMVCView : UIView
+@property (nonatomic, copy)NSString *changValue;
 @property (nonatomic, weak)id<OLMVCViewDelegate> delegate;
 
 - (void)printOnView:(OLMVCModel *)model;
