@@ -31,6 +31,9 @@
     [self.mvcView printOnView: self.model];
     [self.view addSubview:self.mvcView];
     NSLog(@"before the button clicked the self.mvcView.changeValue is %@", self.mvcView.changValue);
+    self.mvcView.viewBlock = ^(NSString *name){
+        NSLog(@"hello block = %@", name);
+    };
 }
 
 - (void)printButtonClick {

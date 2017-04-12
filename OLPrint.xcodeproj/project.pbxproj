@@ -17,6 +17,8 @@
 		853251481E925B5C00D43BE6 /* OLMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251471E925B5C00D43BE6 /* OLMVVMViewController.m */; };
 		853251501E925C3000D43BE6 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532514B1E925C3000D43BE6 /* FBKVOController.m */; };
 		853251521E925C3000D43BE6 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */; };
+		8584D7431E9CA17400AEEE59 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8584D7421E9CA17400AEEE59 /* NSArray+Log.m */; };
+		8584D7461E9CA27400AEEE59 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8584D7451E9CA27300AEEE59 /* NSDictionary+Log.m */; };
 		85BFE0931E88C1D7005A63C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0921E88C1D7005A63C6 /* main.m */; };
 		85BFE0961E88C1D7005A63C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0951E88C1D7005A63C6 /* AppDelegate.m */; };
 		85BFE0991E88C1D7005A63C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFE0981E88C1D7005A63C6 /* ViewController.m */; };
@@ -53,6 +55,10 @@
 		8532514D1E925C3000D43BE6 /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
 		8532514E1E925C3000D43BE6 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		8532514F1E925C3000D43BE6 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		8584D7411E9CA17400AEEE59 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		8584D7421E9CA17400AEEE59 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		8584D7441E9CA27300AEEE59 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		8584D7451E9CA27300AEEE59 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		85BFE08E1E88C1D7005A63C6 /* OLPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BFE0921E88C1D7005A63C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85BFE0941E88C1D7005A63C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -169,6 +175,10 @@
 				85BFE0AB1E88DD90005A63C6 /* OLEmployee.h */,
 				85BFE0AC1E88DD90005A63C6 /* OLEmployee.m */,
 				85BFE0AF1E891EBC005A63C6 /* OLPrintHead.h */,
+				8584D7411E9CA17400AEEE59 /* NSArray+Log.h */,
+				8584D7421E9CA17400AEEE59 /* NSArray+Log.m */,
+				8584D7441E9CA27300AEEE59 /* NSDictionary+Log.h */,
+				8584D7451E9CA27300AEEE59 /* NSDictionary+Log.m */,
 			);
 			path = OLPrint;
 			sourceTree = "<group>";
@@ -278,9 +288,11 @@
 				85BFE0AA1E88C225005A63C6 /* OLManager.m in Sources */,
 				85FE90271E8A358A000618DE /* OLMVCView.m in Sources */,
 				853251451E925B4500D43BE6 /* OLMVVMView.m in Sources */,
+				8584D7431E9CA17400AEEE59 /* NSArray+Log.m in Sources */,
 				851378721E8B96E000B1F694 /* OLMVPViewController.m in Sources */,
 				8513787B1E8BADDD00B1F694 /* OLMVPView.m in Sources */,
 				851378751E8B96F100B1F694 /* OLMVPModel.m in Sources */,
+				8584D7461E9CA27400AEEE59 /* NSDictionary+Log.m in Sources */,
 				853251521E925C3000D43BE6 /* NSObject+FBKVOController.m in Sources */,
 				853251501E925C3000D43BE6 /* FBKVOController.m in Sources */,
 				85BFE0931E88C1D7005A63C6 /* main.m in Sources */,

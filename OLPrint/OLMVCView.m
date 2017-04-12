@@ -32,6 +32,8 @@
         self.changValue = @"changed";
         [self.delegate printButtonClick];
     }
+
+    self.viewBlock(@"changed in 4:30 pm.");
 }
 
 - (void)printOnView:(OLMVCModel *)model {

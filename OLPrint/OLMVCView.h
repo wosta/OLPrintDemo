@@ -15,9 +15,11 @@
 
 @end
 
+typedef void (^OLMVCViewBlock)(NSString *name);
+
 @interface OLMVCView : UIView
 @property (nonatomic, copy)NSString *changValue;
 @property (nonatomic, weak)id<OLMVCViewDelegate> delegate;
-
+@property (nonatomic, strong)OLMVCViewBlock viewBlock;
 - (void)printOnView:(OLMVCModel *)model;
 @end
