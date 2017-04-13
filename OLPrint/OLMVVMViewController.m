@@ -10,11 +10,14 @@
 #import "OLMVVMViewModel.h"
 #import "OLMVVMView.h"
 #import "OLMVVMPaper.h"
+#import "OLMVVMSubViewController.h"
 
 @interface OLMVVMViewController ()<OLMVVMViewDelegate>
 @property (nonatomic, strong)OLMVVMViewModel *mvvmViewModel;
 @property (nonatomic, strong)OLMVVMView  *mvvmView;
 @property (nonatomic, strong)OLMVVMPaper *mvvmPaper;
+/** <#name#> */
+@property (nonatomic, strong) UIButton *subButton;
 @end
 
 @implementation OLMVVMViewController
@@ -35,6 +38,21 @@
     [self.mvvmViewModel setWithPaper:self.mvvmPaper];
 
     self.mvvmView.delegate = self;
+
+    self.subButton = ({
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 50)];
+        button.backgroundColor = [UIColor redColor];
+        [button setTitle:@"下一页" forState:UIControlStateNormal];
+        [button addTarget:self action:@selector(nextPage) forControlEvents:UIControlEventTouchUpInside];
+        button;
+    });
+    [self.view addSubview:self.subButton];
+}
+
+- (void)nextPage {
+    OLMVVMSubViewController *sub = [[OLMVVMSubViewController alloc] init];
+    sub.paper = self.mvvmPaper;
+    [self.navigationController pushViewController:sub animated:YES];
 }
 
 - (void)mvvmViewModelIsChange {

@@ -44,6 +44,8 @@
 
 - (void)printClick{
     [self.mvvmViewModel onPrintClick];
+
+    // 这里是告知控制器数据有变化，其实控制器并不需要知道。
     if(self.delegate && [self.delegate respondsToSelector:@selector(mvvmViewModelIsChange)]) {
         [self.delegate mvvmViewModelIsChange];
     }

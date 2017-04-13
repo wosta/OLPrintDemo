@@ -11,6 +11,7 @@
 		851378751E8B96F100B1F694 /* OLMVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851378741E8B96F100B1F694 /* OLMVPModel.m */; };
 		851378781E8B9DDF00B1F694 /* OLPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 851378771E8B9DDF00B1F694 /* OLPresenter.m */; };
 		8513787B1E8BADDD00B1F694 /* OLMVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8513787A1E8BADDD00B1F694 /* OLMVPView.m */; };
+		85242AEB1E9F6FB700F2F74A /* OLMVVMSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85242AEA1E9F6FB700F2F74A /* OLMVVMSubViewController.m */; };
 		8532513F1E925B2C00D43BE6 /* OLMVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532513E1E925B2C00D43BE6 /* OLMVVMViewModel.m */; };
 		853251421E925B3900D43BE6 /* OLMVVMPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251411E925B3900D43BE6 /* OLMVVMPaper.m */; };
 		853251451E925B4500D43BE6 /* OLMVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853251441E925B4500D43BE6 /* OLMVVMView.m */; };
@@ -42,6 +43,8 @@
 		851378771E8B9DDF00B1F694 /* OLPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLPresenter.m; sourceTree = "<group>"; };
 		851378791E8BADDD00B1F694 /* OLMVPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVPView.h; sourceTree = "<group>"; };
 		8513787A1E8BADDD00B1F694 /* OLMVPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVPView.m; sourceTree = "<group>"; };
+		85242AE91E9F6FB700F2F74A /* OLMVVMSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVVMSubViewController.h; sourceTree = "<group>"; };
+		85242AEA1E9F6FB700F2F74A /* OLMVVMSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVVMSubViewController.m; sourceTree = "<group>"; };
 		8532513D1E925B2C00D43BE6 /* OLMVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVVMViewModel.h; sourceTree = "<group>"; };
 		8532513E1E925B2C00D43BE6 /* OLMVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLMVVMViewModel.m; sourceTree = "<group>"; };
 		853251401E925B3900D43BE6 /* OLMVVMPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLMVVMPaper.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				853251441E925B4500D43BE6 /* OLMVVMView.m */,
 				853251461E925B5C00D43BE6 /* OLMVVMViewController.h */,
 				853251471E925B5C00D43BE6 /* OLMVVMViewController.m */,
+				85242AE91E9F6FB700F2F74A /* OLMVVMSubViewController.h */,
+				85242AEA1E9F6FB700F2F74A /* OLMVVMSubViewController.m */,
 			);
 			name = MVVM;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				8532513F1E925B2C00D43BE6 /* OLMVVMViewModel.m in Sources */,
 				853251481E925B5C00D43BE6 /* OLMVVMViewController.m in Sources */,
 				85FE902B1E8A35A7000618DE /* OLMVCViewController.m in Sources */,
+				85242AEB1E9F6FB700F2F74A /* OLMVVMSubViewController.m in Sources */,
 				851378781E8B9DDF00B1F694 /* OLPresenter.m in Sources */,
 				85BFE0991E88C1D7005A63C6 /* ViewController.m in Sources */,
 				85BFE0961E88C1D7005A63C6 /* AppDelegate.m in Sources */,

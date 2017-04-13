@@ -14,8 +14,6 @@
 @end
 
 @interface OLMVPView : UIView
-/** <#type#> */
-@property (nonatomic, copy) NSString *labelContentString;
 @property (nonatomic, weak)id<OLMVPViewDelegate> delegate;
 - (void)printOnView:(NSString *)content;
 
